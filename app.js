@@ -1,9 +1,11 @@
 var transporter = require('./config'); //require transformer
 
 var fromEmail = 'test@example.com';
+var toEmail = 'test2@example.com';
 
 let mailOptions = {
     from: fromEmail, 
+    to: toEmail, 
     subject: 'Example subject', 
     text: 'Hey there', 
     html: 'Hello world'
